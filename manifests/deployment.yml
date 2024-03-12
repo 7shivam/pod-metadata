@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namepace: shivam
   labels:
     app: pod-metadata
   name: pod-metadata-deployment
